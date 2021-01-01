@@ -3,9 +3,10 @@ class MySolution {
     // Insert code here;
     if (num <= 1)
       return num;
-    return num + this.countDownSum(num - 1)
+    else
+      return num + this.countDownSum(num - 1)
   }
 }
 
 let studentSolution = new MySolution();
-console.log(studentSolution.countDownSum(5))
+console.log(studentSolution.countDownSum(10))
