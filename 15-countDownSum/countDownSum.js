@@ -11,4 +11,3 @@ class MySolution {
 
 let StudentSolution = MySolution
 module.exports = StudentSolution
-// console.log(StudentSolution.countDownSum(10))
